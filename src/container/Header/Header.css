@@ -1,0 +1,30 @@
+.app__header {
+  background-color: var(--color-pink);
+  justify-content: space-around;
+}
+
+.app__wrapper_img .flex__start {
+  align-items: flex-start;
+  margin-right: 2rem;
+}
+
+.app__wrapper_img .flex__end {
+  align-items: center;
+  margin-left: 3rem;
+}
+
+@media screen and( max-width:1150px) {
+  .app__header {
+    padding: 2rem;
+  }
+  .app__header_img img {
+    margin: 3rem;
+  }
+}
+
+@media screen and( max-width:850px) {
+  .app__header_img img {
+    width: 80%;
+    margin-bottom: 5rem;
+  }
+}
